@@ -220,3 +220,12 @@ Combining the Unit Conversion with sed for Label Replacement:
 If you also need to replace the unit label in the header or data file, do it in two steps:
 `awk '{if (NR == 1) {print $1, "voltage(V)"} else {print $1, $2/1000}}' experiment_data.txt | sed 's/V/mV/g' > updated_experiment_data.txt`
 This command combines `awk` to perform the calculation and sed to replace the unit labels if needed.
+
+
+You can use awk to add the values in each row:
+
+`awk '{sum = $1 + $2; print sum}' numbers.txt`
+Output:
+`3
+7
+11`
