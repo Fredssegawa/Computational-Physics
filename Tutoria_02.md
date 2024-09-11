@@ -1,4 +1,4 @@
-## Learning Goal:
+I'm## Learning Goal:
 The goal of this section is to build a foundational understanding of basic Linux commands, especially in file navigation, file management, and understanding the Linux filesystem structure. Learners will also be introduced to text processing using commands like grep, awk, and sed, which are particularly useful in scientific and computational tasks. 
 
 ## Basic Commands Practice:
@@ -142,7 +142,7 @@ Example: If you have a file where columns represent time, voltage, and current, 
 This command will print the first column, which is time in this case.
 	
 **Hands-On Example:**
-Given the same `experiment1.txt` file:
+Given the same `asssignment1.txt` file:
 ```
 time: 12:00	voltage: 2.5V
 time: 12:30	current: 0.5A
